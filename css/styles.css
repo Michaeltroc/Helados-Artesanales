@@ -1,0 +1,169 @@
+/*Aplicado para toda la pagina*/
+html {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300px;
+    background-color: ghostwhite;
+}
+
+/*Declarmos todas las etiquetas glovales y poner en margen 0*/
+h1,h2,h3,h4.h5,h6, figure,ul {
+    margin: 0;
+}
+
+/*Definimos el tamaño de la fuente*/ 
+h1,h4{
+    font-family:"Righteous", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    color: #0bd883;
+}
+
+/*Para cuando pase el mouse por encima, el color de los vinculos*/
+a:hover {
+    color: #ea6e39;
+}
+/*Para cuando ya lo hayan visitado por decir asi*/
+a:visited {
+    color: #AAAAAA;
+}
+
+a:active {
+    color: #FF0000;
+}
+/*Para que ordene de forma horizontal los elementos*/
+.fp-video, .ft-art, .menu-item{
+    display: inline-block;
+}
+
+.contenedor {
+    max-width: 1024px;
+    margin: 0 auto;/*Arriba y abajo de 0 y a los costados automaticos*/
+} 
+
+.logo {
+    margin: 15px;
+    text-align: center;
+}
+/*--------Posicon y estilos del menu----------*/
+
+nav {
+    background-color: #2E353E;
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+}
+
+.menu-item {
+    text-transform: uppercase;
+}
+
+.menu-item a div {
+    padding: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.menu-item :hover {
+    background-color: #b2f1caac;
+}
+
+/*Seccion del video y articulo*/
+
+.featured {
+    background-color:#F2F2F2;
+}
+
+.fp-video{
+    width: 54%;
+    padding: 20px;
+}
+
+.ft-art {
+    width: 32%;
+    padding: 15px;
+    vertical-align: top;
+} 
+
+/*------Estilos para los botones----------*/
+
+.boton-container {
+    text-align: center;
+    background-color:#1FBEA4;
+    margin: 0 auto;
+}
+
+.boton-container a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.boton-container :hover{
+    background-color:  #43CEA9;
+}
+
+.boton{
+    padding: 15px;
+}
+
+/*-------Estilo para los articulos--------*/
+
+ article{
+	padding: 30px;
+	background-color: #F2F2F2;
+	margin: 20px 0;
+ }
+
+.art-image {
+    display: inline-block;
+    width: 210px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.art-cont {
+    display: inline-block;
+    width: 700px;
+    vertical-align: top;
+}
+
+figcaption {
+    background-color: #1FBEA4;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+article h1{
+    border-bottom: solid thin black;
+}
+
+/*-------Estilos para footer------*/
+
+footer {
+    background-color: #2E353E;
+    color: #FFF;
+    line-height: 6px;
+    text-align: center;
+    padding: 10px;
+}
+
+.derechos{
+    font-size: 12px;
+    text-align: center;
+}
+
